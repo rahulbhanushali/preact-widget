@@ -9,6 +9,9 @@ export default defineConfig({
       name: "Widgets",
       fileName: (format) => `test-app.${format}.js`,
     },
+    rollupOptions: {
+      // external: ["preact"], // exclude preact from the bundle
+    },
   },
   plugins: [preact()],
 });

@@ -1,5 +1,3 @@
-import "preact/debug";
-
 import { h, render } from "preact";
 
 import { useState } from "preact/hooks";
